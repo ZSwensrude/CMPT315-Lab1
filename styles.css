@@ -1,20 +1,56 @@
 body {
-  background-color: lightgray;
-  font-family: Arial;
-  text-align: center;
-  display: flex;
-  align-items: center;
+  background-color: rgb(242, 242, 242);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
   height: 90vh;
   justify-content: center;
+  text-align: center;
+}
+
+div#main {
+  display: flex;
+  align-items: center;
+}
+
+div#project {
+  padding-top: 10vh;
+  align-items: center;
+}
+
+a#link {
+  display: block;
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
-  font-size: 28px;
+  font-size: 18px;
+}
+
+div#navbar {
+  background-color: lightblue;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+}
+
+nav a:hover {
+  color: #0066cc;
 }
 
 button {
